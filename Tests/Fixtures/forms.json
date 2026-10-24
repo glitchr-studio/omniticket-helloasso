@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "currency": "EUR",
+            "description": "Le bal de printemps de l'association",
+            "startDate": "2099-04-18T20:00:00+02:00",
+            "endDate": "2099-04-19T01:00:00+02:00",
+            "state": "Public",
+            "title": "Bal de printemps",
+            "widgetButtonUrl": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps/widget-bouton",
+            "widgetFullUrl": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps/widget",
+            "widgetVignetteHorizontalUrl": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps/widget-vignette-horizontale",
+            "widgetVignetteVerticalUrl": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps/widget-vignette",
+            "formSlug": "bal-de-printemps",
+            "formType": "Event",
+            "url": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps",
+            "organizationSlug": "example-association"
+        },
+        {
+            "currency": "EUR",
+            "startDate": "2099-06-01T10:00:00+02:00",
+            "state": "Draft",
+            "title": "Kermesse",
+            "formSlug": "kermesse",
+            "formType": "Event",
+            "url": "https://www.helloasso.com/associations/example-association/evenements/kermesse",
+            "organizationSlug": "example-association"
+        }
+    ],
+    "pagination": {
+        "pageSize": 100,
+        "totalCount": 2,
+        "pageIndex": 1,
+        "totalPages": 1,
+        "continuationToken": "example-continuation"
+    }
+}

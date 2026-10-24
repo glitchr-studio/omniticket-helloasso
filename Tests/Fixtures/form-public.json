@@ -1,0 +1,45 @@
+{
+    "organizationName": "Example association",
+    "tiers": [
+        {
+            "id": 1001,
+            "label": "Adulte",
+            "tierType": "Registration",
+            "price": 1500,
+            "maxPerUser": 4,
+            "saleStartDate": "2099-03-01T00:00:00+01:00"
+        },
+        {
+            "id": 1002,
+            "label": "Prix libre",
+            "tierType": "Registration",
+            "price": 0,
+            "minAmount": 500
+        },
+        {
+            "id": 1003,
+            "label": "Enfant",
+            "tierType": "Registration",
+            "price": 0
+        }
+    ],
+    "place": {
+        "address": "1 place de la Mairie",
+        "name": "Salle des fêtes",
+        "city": "Colmar",
+        "zipCode": "68000",
+        "country": "FRA"
+    },
+    "saleStartDate": "2099-03-01T00:00:00+01:00",
+    "saleEndDate": "2099-04-18T18:00:00+02:00",
+    "currency": "EUR",
+    "startDate": "2099-04-18T20:00:00+02:00",
+    "endDate": "2099-04-19T01:00:00+02:00",
+    "state": "Public",
+    "title": "Bal de printemps",
+    "widgetFullUrl": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps/widget",
+    "formSlug": "bal-de-printemps",
+    "formType": "Event",
+    "url": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps",
+    "organizationSlug": "example-association"
+}

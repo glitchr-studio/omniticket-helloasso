@@ -1,0 +1,53 @@
+{
+    "name": "omniticket/helloasso",
+    "type": "library",
+    "description": "Omniticket's HelloAsso, under any PHP host: an association's event forms with their tiers, the registrations of an event, and a ticket's QR code checked among them - read only, through HelloAsso's API v5 (OAuth2 client credentials).",
+    "keywords": [
+        "helloasso",
+        "association",
+        "ticketing",
+        "tickets",
+        "events",
+        "attendees",
+        "framework-agnostic",
+        "omniticket"
+    ],
+    "homepage": "https://github.com/glitchr-studio/omniticket-helloasso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "omniscient/omniticket": "^1.0@dev",
+        "symfony/http-client-contracts": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omniticket\\HelloAsso\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omniticket\\HelloAsso\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-1.x": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

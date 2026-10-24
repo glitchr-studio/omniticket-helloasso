@@ -1,0 +1,12 @@
+# PHPStan at the highest level, as glitchr-studio/ci's workflow runs it. phpstan-baseline.neon is
+# empty and stays so (the shared workflow wants the file): any error fails.
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: max
+    paths:
+        - .
+    excludePaths:
+        - vendor (?)
+        - docker (?)

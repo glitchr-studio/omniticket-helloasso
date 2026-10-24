@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "order": {"id": 50001, "date": "2099-03-02T10:00:00+01:00", "formSlug": "bal-de-printemps", "formType": "Event", "organizationSlug": "example-association"},
+            "payer": {"email": "jeanne@example.org", "firstName": "Jeanne", "lastName": "Dupont"},
+            "payments": [{"id": 70001, "amount": 1500, "state": "Authorized"}],
+            "name": "Adulte",
+            "user": {"firstName": "Jeanne", "lastName": "Dupont"},
+            "priceCategory": "Fixed",
+            "ticketUrl": "https://www.helloasso.com/associations/example-association/evenements/bal-de-printemps/billets/example",
+            "qrCode": "EXAMPLE-QR-0001",
+            "tierId": 1001,
+            "id": 60001,
+            "amount": 1500,
+            "type": "Registration",
+            "initialAmount": 1500,
+            "state": "Processed"
+        },
+        {
+            "order": {"id": 50002},
+            "payer": {"email": "paul@example.org", "firstName": "Paul", "lastName": "Martin"},
+            "payments": [{"id": 70002, "amount": 1500, "state": "Refunded"}],
+            "name": "Adulte",
+            "user": {"firstName": "Paul", "lastName": "Martin"},
+            "qrCode": "EXAMPLE-QR-0002",
+            "tierId": 1001,
+            "id": 60002,
+            "amount": 1500,
+            "type": "Registration",
+            "state": "Processed"
+        },
+        {
+            "order": {"id": 50003},
+            "payer": {"email": "ana@example.org"},
+            "name": "Enfant",
+            "user": {"firstName": "Ana", "lastName": "Lima"},
+            "qrCode": "EXAMPLE-QR-0003",
+            "tierId": 1003,
+            "id": 60003,
+            "amount": 0,
+            "type": "Registration",
+            "state": "Canceled"
+        }
+    ],
+    "pagination": {"pageSize": 100, "totalCount": 3, "pageIndex": 1, "totalPages": 1, "continuationToken": "example-continuation"}
+}
