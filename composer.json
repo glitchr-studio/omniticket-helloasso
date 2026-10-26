@@ -12,7 +12,7 @@
         "framework-agnostic",
         "omniticket"
     ],
-    "homepage": "https://github.com/glitchr-studio/omniticket-helloasso",
+    "homepage": "https://github.com/glitchr-omnisense/omniticket-helloasso",
     "license": "MIT",
     "authors": [
         {
@@ -22,7 +22,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "omniscient/omniticket": "^1.0@dev",
+        "omnisense/omniticket": "^1.0@dev",
         "symfony/http-client-contracts": "^3.0"
     },
     "require-dev": {

@@ -1,6 +1,6 @@
 # omniticket/helloasso
 
-[omniscient/omniticket](https://github.com/glitchr-studio/omniticket)'s HelloAsso, under any PHP
+[omnisense/omniticket](https://github.com/glitchr-omnisense/omniticket)'s HelloAsso, under any PHP
 host: an association's event forms with their tiers, the registrations of an event, and a ticket's
 QR code checked among them. Reading only.
 
